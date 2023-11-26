@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+section {
+  animation: fadeIn 2s ease-in;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.nos_formation {
+  background-color: #ddd;
+}
+
+.nos_formation_master {
+  background-color: #bbb;
+}
+
+.nos_formation_format {
+  background-color: #999;
+}
+
+.nos_formation_cert {
+  background-color: #777;
+}
+
+
+.bouton, .bouton1 {
+  position: absolute;
+  top: 0;
+  padding: 10px 20px; /* Reduced padding */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px; /* Reduced font size */
+  cursor: pointer;
+  border: none;
+ }
+ 
+ .bouton {
+  left: 0;
+  background-color: #4CAF50;
+  color: white;
+ }
+ 
+ .bouton:hover {
+  background-color: #45a049;
+ }
+ 
+ .bouton1 {
+  right: 0;
+  background-color: #008CBA;
+  color: white;
+ }
+ 
+ .bouton1:hover {
+  background-color: #007b9c;
+ }
+ .btn{
+  margin-bottom: 50px;
+ }
+ .bouton a{
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+ }
+ .bouton1 a{
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+ }
+
+ 
+ 
